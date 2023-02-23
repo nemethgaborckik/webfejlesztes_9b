@@ -5,5 +5,26 @@
 
  body span {
      color: purple;
+     
+}
+
+#modern {
+    color: cyan;
+}
+
+.golyo{
+    color: black;
+}
+
+body {
+    background-color: bisque;
+}
+p {
+    background-color: white;
+}
+/* közvetlen leszármazott gyerek > */
+#valami {
+background-color: greenyellow;
+
 }
 
