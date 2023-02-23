@@ -1,0 +1,12 @@
+/* body {
+    background-color: red;
+} */
+#piros {
+    background-color: red;
+    width: 150px;
+    height: 300px;
+}
+#kék {
+    background-color: blue;
+    width: 50%;
+}
