@@ -29,3 +29,16 @@ div {
     display: block;
 
 }
+/* inline block
+1 egysorba kerül (egymást követő elemek 
+2 állítható méret
+ */
+
+ .vegyes {
+    display: inline-block;
+
+    
+ }
+ #nincs {
+    display: none;
+ }
