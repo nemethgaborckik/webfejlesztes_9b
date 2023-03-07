@@ -1,0 +1,20 @@
+
+p {
+    font-size: 20px;
+}
+
+
+#labdarugas {
+    font-weight: bold;
+}
+
+#foci {
+
+    color: red;
+    /* font-size: 200%; */
+    font-size: 2em;
+    display: inline-block;
+    width: 0.4em;
+    background-color: lightblue;
+}
+ 
