@@ -1,6 +1,6 @@
 
 p {
-    font-size: 20px;
+    font-size: 8px;
 }
 
 
@@ -14,7 +14,26 @@ p {
     /* font-size: 200%; */
     font-size: 2em;
     display: inline-block;
-    width: 0.4em;
+    width: 40%;
     background-color: lightblue;
 }
- 
+
+html {
+    font-size: 20px;
+}
+ #labdajatek {
+    /* root=html */
+    color: blue;
+    font-size: 2rem;
+ }
+
+
+ #USA{
+    font-variant: small-caps;
+ }
+
+ #IFA {
+
+    color: purple;
+    font-family:Quicksands ;
+ }
