@@ -1,0 +1,33 @@
+div {
+    background-color: aqua;
+    width: 40%;
+    height: 50px;
+    border: 1px solid black;
+  
+}
+
+#doboz1 {
+    background-color: rgb(200, 40, 0);
+    opacity: 60%;
+}
+
+#doboz2 {
+    background-color: rgb(220, 220,220);
+}
+
+
+#doboz3 {
+    background-color: #02f512;
+}
+
+#doboz4 {
+    background-color: rgba(193, 23, 17, 80%);
+}
+
+
+#doboz5 {
+    background-color: hsla(280, 80%, 40%, 40%);
+}
+
+/* hue = árnyalat telitetteg fenyero */
+
