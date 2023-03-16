@@ -30,6 +30,29 @@ p {
 .erdekesseg {
     font-style: italic;
     font-family: cursive;
-    border: 2px ;
+    border: 2px dashed indianred;
+    padding: 8px;
+}
+
+
+span {
+    text-transform: uppercase;
+
+}
+
+#bevezeto, #jellemző {
+    font-weight: bold;
+}
+
+a {
+    background-color: lightblue;
+    color: blue;
+    font-size: 120%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    width: calc(50% - 2px);
+    
 }
 
