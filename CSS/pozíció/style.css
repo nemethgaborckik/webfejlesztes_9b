@@ -1,6 +1,7 @@
     body {
         width: 60%;
         border: 1px solid black;
+        /* position: relative; */
     }
 
     div {
@@ -18,6 +19,8 @@
     left: 20px;
     top: 10px;
     position: relative;
+    z-index: 3;
+   
 }
 
 
@@ -26,6 +29,7 @@
     left: 20px;
     top: 40px;
     position: absolute;
+    z-index: 0;
 }
 
 #c {
@@ -41,6 +45,22 @@
     background-color: yellow;
     position: sticky;
     top: 0px;
+    z-index: 2;
+
+    
     
 
 }
+
+#e {
+    background-color: purple;
+    position: relative;
+    left: 30px;
+    bottom: 70px;
+    z-index: 1;
+    
+
+
+}
+
+
