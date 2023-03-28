@@ -1,2 +1,3 @@
 [0321/093952.552:ERROR:registration_protocol_win.cc(106)] CreateFile: A rendszer nem találja a megadott fájlt. (0x2)
 [0321/093952.908:ERROR:registration_protocol_win.cc(106)] CreateFile: A rendszer nem találja a megadott fájlt. (0x2)
+[0327/112958.093:ERROR:registration_protocol_win.cc(106)] CreateFile: A rendszer nem találja a megadott fájlt. (0x2)
