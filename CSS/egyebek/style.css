@@ -13,7 +13,6 @@ div {
 
 #fenti {
     box-shadow: 5px 3px 3px blue ;
-
 }
 
 #lenti {
@@ -36,6 +35,43 @@ li {
     list-style-position: inside;
     margin-bottom: 10px;
     padding: 5px;
+    
+
+}
+
+a {
+    background-color: rgb(204, 204, 7);
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:link {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    background-color:pink;
+    text-decoration: underline;
+    border: 1px dashed;
+    cursor: progress;
+}
+
+table {
+    background-color: white;
+    margin: auto;
     
 
 }
