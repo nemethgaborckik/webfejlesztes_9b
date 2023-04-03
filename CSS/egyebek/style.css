@@ -72,6 +72,29 @@ a:hover {
 table {
     background-color: white;
     margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-bottom: 30%;
     
 
 }
+
+td, th {
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    vertical-align: auto;
+}
+
+body {
+    background-image:url(fruit_salad.png), url(books.png);
+    background-repeat: repeat-x, no-repeat;
+    background-position: bottom;
+    background-size: 10%;
+
+
+}
+
