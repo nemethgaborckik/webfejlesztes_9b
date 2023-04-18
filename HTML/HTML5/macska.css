@@ -58,10 +58,9 @@ aside {
     margin: 20px;
     text-align: center;
     float: right;
-    font-family: cursive;
-
-
+    font-family: cursive;  
 }
+
 
 /* 
     Felső margó: 20 képpont
@@ -106,6 +105,7 @@ nav a {
     text-decoration: none;
     width: calc(100% / 3);
     box-sizing: border-box;
+    
 
 
 }
@@ -120,7 +120,7 @@ nav a:hover {
     color: white;
     text-decoration: underline;
     background-color: rgb(0, 100,20, 0.8);
-
+}
 /* 
     Ugrás a tetejére link!
     1. Szélesség: 20%-os képernyő szélesség
@@ -159,3 +159,34 @@ nav a:hover {
 /* 
     Vissza (nincs rajta az "osztaly"): 1 másodperc
 */
+
+@media screen and (max-width: 630px) {
+    aside {
+        float: none;
+        box-sizing: border-box;
+    }
+
+    nav a {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+@media  screen and (max-width: 350px) {
+    aside {
+        display: none;
+    }
+}
+
+
+
+@media print {
+    nav {
+        display: none;
+    }
+    article {
+        border: none;
+    }
+}
